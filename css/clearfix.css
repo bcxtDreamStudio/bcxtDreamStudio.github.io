@@ -1,0 +1,7 @@
+/*清除浮动样式*/
+
+.clearfix:after{
+    content: '';/*内容为空*/
+    display: block;/*转为块*/
+    clear: both;/*清除左右浮动*/
+}

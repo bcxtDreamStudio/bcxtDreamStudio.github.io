@@ -1,0 +1,38 @@
+/*清除元素默认样式*/
+body,
+ul,
+form,
+dl,
+dd,
+h1,
+h2,
+h3,
+p,
+ol,
+figure{
+    margin: 0;
+}
+ul,ol{
+    padding: 0px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font:14px "微软雅黑";
+    color: #373d41;
+}
+img{
+    vertical-align: top;
+    border: none;
+}
+input{
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+}
+em{
+    font-style:normal;
+}
+button{
+    padding: 0;
+}
